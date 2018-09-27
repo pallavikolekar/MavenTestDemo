@@ -33,6 +33,11 @@ public class MyFirstDemotest {
 	}
 	
 	
+	@Test
+	public void MyDemoTest() {
+		System.out.println("This is my DemoTest");
+	}
+	
 	
 	@AfterClass
 	public void CloseBrowser() {
