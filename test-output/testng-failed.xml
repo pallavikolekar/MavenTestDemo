@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MSuite]">
+  <test name="MavenDemoTest(failed)">
+    <classes>
+      <class name="com.sampledemo.tests.MyFirstDemotest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="openBrowserurl"/>
+          <include name="Initialise"/>
+        </methods>
+      </class> <!-- com.sampledemo.tests.MyFirstDemotest -->
+    </classes>
+  </test> <!-- MavenDemoTest(failed) -->
+</suite> <!-- Failed suite [MSuite] -->
