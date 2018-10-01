@@ -38,6 +38,11 @@ public class MyFirstDemotest {
 		System.out.println("This is my DemoTest");
 	}
 	
+	@Test
+	public void MyCheckedCodeTest() {
+		System.out.println("This is My Checked Code test");
+	}
+	
 	
 	@AfterClass
 	public void CloseBrowser() {

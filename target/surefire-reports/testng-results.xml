@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MSuite" duration-ms="9226" started-at="2018-09-26T17:45:49Z" finished-at="2018-09-26T17:45:58Z">
+  <suite name="MSuite" duration-ms="10603" started-at="2018-10-01T18:04:56Z" finished-at="2018-10-01T18:05:07Z">
     <groups>
     </groups>
-    <test name="MavenDemoTest" duration-ms="9226" started-at="2018-09-26T17:45:49Z" finished-at="2018-09-26T17:45:58Z">
+    <test name="MavenDemoTest" duration-ms="10603" started-at="2018-10-01T18:04:56Z" finished-at="2018-10-01T18:05:07Z">
       <class name="com.sampledemo.tests.MyFirstDemotest">
-        <test-method status="PASS" signature="Initialise()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@2ed94a8b]" name="Initialise" is-config="true" duration-ms="4032" started-at="2018-09-26T10:45:49Z" finished-at="2018-09-26T10:45:53Z">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@73f792cf]" name="Initialise" is-config="true" duration-ms="4922" started-at="2018-10-01T11:04:56Z" finished-at="2018-10-01T11:05:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialise -->
-        <test-method status="FAIL" signature="openBrowserurl()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@2ed94a8b]" name="openBrowserurl" duration-ms="4487" started-at="2018-09-26T10:45:53Z" finished-at="2018-09-26T10:45:57Z">
+        <test-method status="PASS" signature="MyDemoTest()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@73f792cf]" name="MyDemoTest" duration-ms="1" started-at="2018-10-01T11:05:01Z" finished-at="2018-10-01T11:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyDemoTest -->
+        <test-method status="FAIL" signature="openBrowserurl()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@73f792cf]" name="openBrowserurl" duration-ms="4916" started-at="2018-10-01T11:05:01Z" finished-at="2018-10-01T11:05:06Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Gmail1"}
@@ -20,10 +24,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'CLIENTPC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'CLIENTPC', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pallavi\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49494}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: c1a5ed3e7f72a183158eece57a61bbe5
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pallavi\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58605}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: c16e949ffa3b647e9618ae3fddbe98e8
 *** Element info: {Using=link text, value=Gmail1}]]>
             </message>
             <full-stacktrace>
@@ -33,10 +37,10 @@ Session ID: c1a5ed3e7f72a183158eece57a61bbe5
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'CLIENTPC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'CLIENTPC', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pallavi\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49494}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: c1a5ed3e7f72a183158eece57a61bbe5
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\Pallavi\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58605}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: c16e949ffa3b647e9618ae3fddbe98e8
 *** Element info: {Using=link text, value=Gmail1}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -90,7 +94,7 @@ Session ID: c1a5ed3e7f72a183158eece57a61bbe5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserurl -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@2ed94a8b]" name="CloseBrowser" is-config="true" duration-ms="667" started-at="2018-09-26T10:45:57Z" finished-at="2018-09-26T10:45:58Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.sampledemo.tests.MyFirstDemotest@73f792cf]" name="CloseBrowser" is-config="true" duration-ms="712" started-at="2018-10-01T11:05:06Z" finished-at="2018-10-01T11:05:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
