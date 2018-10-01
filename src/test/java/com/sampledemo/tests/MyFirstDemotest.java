@@ -40,7 +40,7 @@ public class MyFirstDemotest {
 	
 	@Test
 	public void MyCheckedCodeTest() {
-		System.out.println("Sample This is My Checked Code test");
+		System.out.println("This is My Checked Code test");
 	}
 	
 	
